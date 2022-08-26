@@ -115,7 +115,7 @@ ul {
     margin: -1px;
 }
 
-/* header */
+/******************** header ********************/
 
 .header .container {
     display: flex;
@@ -146,7 +146,7 @@ ul {
 	padding-bottom: 25px;
 }
 
-/* header-nav */
+/******************** header-nav ********************/
 
 .header {
     border-bottom: 1px solid #ececec; 
@@ -285,7 +285,7 @@ ul {
 margin-right: 50px;
 }
 
-/* Hero */
+/******************** Hero ********************/
 
 .hero {
     /* outline: 2px solid var(--outline); */
@@ -328,7 +328,7 @@ margin-right: 50px;
     background-image: url(../img/first-image.svg);
 }
 
-/* Hero button */
+/******************** Hero button ********************/
 
 .btn {
     font-family: inherit;
@@ -352,8 +352,8 @@ margin-right: 50px;
     background-color: #188ce8;
 }
 
-/* section */
-/* особливості */
+/******************** section ********************/
+/******************** особливості ********************/
 
 .benefits-list {
     display: flex;
@@ -409,7 +409,7 @@ margin-right: 50px;
     color: var(--second-text-color);
 }
 
-/* gallery */
+/******************** gallery ********************/
 
 .gallery {
     padding-top: 0;
@@ -448,7 +448,7 @@ text-transform: uppercase;
 color: var(--button-color);
 }
 
-/* team */
+/********************* team ********************/
 
 .team {
     background-color: var(--additional-background-color);
@@ -540,7 +540,7 @@ color: var(--button-color);
 background-image: url(../img/instagram\ 2.svg);
 } */
 
-/* clients */
+/******************** clients ********************/
 
 .clients-title {
     font-weight: 700;
@@ -590,7 +590,7 @@ background-image: url(../img/instagram\ 2.svg);
     color: var(--accent-color);
 }
 
-/* footer */
+/******************** footer ********************/
 
 .footer {
     background-color: var(--footer-color);
@@ -717,7 +717,37 @@ background-image: url(../img/instagram\ 2.svg);
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* portfolio */
+/******************** footer ********************/
+
+.sign-up {
+margin-left: auto;
+}
+
+.form-title {
+}
+.sign-up-form {
+}
+.form-email {
+}
+.cubmit-button {
+}
+.send-icon {
+}
+.icon {
+}
+
+/* input {
+    padding: 8px;
+    font-family: inherit;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+} */
+
+/******************** portfolio ********************/
 
 .header-nav-list {
     display: flex;
@@ -866,7 +896,7 @@ background-image: url(../img/instagram\ 2.svg);
     line-height: 1.88;
     color: var(--second-text-color);
 }
-
+/******************** Modal ********************/
 .backdrop {
     position: fixed;
     top: 0;
