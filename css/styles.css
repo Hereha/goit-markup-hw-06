@@ -781,9 +781,14 @@ margin-left: auto;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.send-icon {
+.submit-button:hover,
+.submit-button:hover {
+    transform: scale(1.02);
 }
-.icon {
+
+.send-icon {
+    margin-left: 10px;
+    color: var(--background-color);
 }
 
 /* input {
