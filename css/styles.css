@@ -1156,6 +1156,15 @@ label {
     background-origin: border-box;
     border: 2px solid var(--accent-color);
 }
+
 .form-check:focus-within .form-square-icon {
     border: 2px solid var(--accent-color);
+}
+
+.icon-inputs {
+    position: absolute;
+    top: 32px;
+    left: 15px;
+    fill: var(--primary-text-color);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
